@@ -1,0 +1,50 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    height: 100%;
+    width: 100%;
+
+    background-image: url("../img/BG_PreRelease.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.home-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.center-horz {
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    left: 0; right: 0;
+}
+
+.center-vert {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.bottom {
+    bottom: 0;
+    position: absolute;
+}
+
+.logo {
+    background-image: url("../img/carcada-logo-white.svg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 25%;
+}
+
+.carcada-font {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
